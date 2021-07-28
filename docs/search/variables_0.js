@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['address_35',['address',['../class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda',1,'EasyC']]]
+  ['_5faddress_57',['_address',['../class_t_c_a9548_a.html#aeb74ab79708b584f5eb2cdfe7a7514f6',1,'TCA9548A']]],
+  ['_5fchannels_58',['_channels',['../class_t_c_a9548_a.html#a1c2b6151c5084a34fecdc826509f4c59',1,'TCA9548A']]]
 ];

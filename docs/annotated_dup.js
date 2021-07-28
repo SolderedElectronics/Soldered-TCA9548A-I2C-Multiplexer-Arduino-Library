@@ -7,5 +7,5 @@ var annotated_dup =
     [ "Original source", "index.html#autotoc_md5", null ],
     [ "Open-source license", "index.html#autotoc_md6", null ],
     [ "EasyC", "class_easy_c.html", "class_easy_c" ],
-    [ "Sensor", "class_sensor.html", "class_sensor" ]
+    [ "TCA9548A", "class_t_c_a9548_a.html", "class_t_c_a9548_a" ]
 ];
