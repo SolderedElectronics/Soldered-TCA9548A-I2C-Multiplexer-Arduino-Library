@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['closeall_5',['closeAll',['../class_t_c_a9548_a.html#abfdba8080cf329f5905442443ef318a2',1,'TCA9548A']]],
-  ['closechannel_6',['closeChannel',['../class_t_c_a9548_a.html#a7e8f6e8ec1e2828ad709d60da6287cdc',1,'TCA9548A']]]
+  ['mywire_5',['myWire',['../class_t_c_a9548_a.html#a6abdc1d1d7918d5b4a6d5171646a76a6',1,'TCA9548A']]]
 ];

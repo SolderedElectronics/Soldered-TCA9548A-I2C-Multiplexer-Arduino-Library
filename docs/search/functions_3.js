@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initializenative_46',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]]
+  ['read_32',['read',['../class_t_c_a9548_a.html#aa08619f1f60fa16bd501e96f662e6187',1,'TCA9548A']]],
+  ['readregister_33',['readRegister',['../class_t_c_a9548_a.html#a8957ccd415f7f03ff61e1abf02e7ea79',1,'TCA9548A']]]
 ];

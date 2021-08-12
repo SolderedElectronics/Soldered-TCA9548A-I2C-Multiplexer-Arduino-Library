@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['read_49',['read',['../class_t_c_a9548_a.html#aa08619f1f60fa16bd501e96f662e6187',1,'TCA9548A']]],
-  ['readdata_50',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_51',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC::readRegister()'],['../class_t_c_a9548_a.html#a8957ccd415f7f03ff61e1abf02e7ea79',1,'TCA9548A::readRegister()']]]
+  ['write_35',['write',['../class_t_c_a9548_a.html#a85e82c9277dd685ef877f1433cc0fea5',1,'TCA9548A']]],
+  ['writeregister_36',['writeRegister',['../class_t_c_a9548_a.html#a4d9ca3e46b12975268299aa1ef1c49e1',1,'TCA9548A']]]
 ];

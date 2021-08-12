@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initializenative_12',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]]
+  ['readme_2emd_11',['README.md',['../src_2libs_2_t_c_a9548_a_2_r_e_a_d_m_e_8md.html',1,'']]]
 ];
