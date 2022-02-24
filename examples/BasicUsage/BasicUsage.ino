@@ -4,9 +4,11 @@
  * @file        BasicUsage.ino
  * @brief       Basic usage example.
  *
+ * Learn more about the board here: https://www.solde.red/333042
  *
- *
- * @authors     @ soldered.com
+ * @authors     JDWifWaf@gmail.com @ soldered.com
+ * 
+ *              Modified by soldered.com
  ***************************************************/
 
 #include "TCA9548A-SOLDERED.h"
@@ -16,7 +18,7 @@ TCA9548A I2CMux; // Address can be passed into the constructor
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(115200);   //Start serial communication with PC
 
     //  Wire.setPins(21, 22);       // ESP32 users, use setPins(sda, scl) if customised, *before* passing Wire to the
     //  library (the line below).

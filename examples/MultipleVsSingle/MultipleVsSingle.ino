@@ -2,11 +2,13 @@
  **************************************************
  *
  * @file        MultipleVsSingle.ino
- * @brief       Example of multiple vs single usage. Learn more about the board here: https://www.solde.red/333042
+ * @brief       Example of multiple vs single usage.
  *
+ * Learn more about the board here: https://www.solde.red/333042
  *
- *
- * @authors     @ soldered.com
+ * @authors     JDWifWaf@gmail.com @ soldered.com
+ * 
+ *              Modified by soldered.com
  ***************************************************/
 
 #include "TCA9548A-SOLDERED.h"
@@ -28,14 +30,14 @@ void setup()
 void loop()
 {
     Serial.println("--- Opening single channels --- ");
-    for (uint8_t x = 0; x < 8; x++)
+    for (uint8_t x = 0; x < 8; x++) //Iterate through all channels
     {
         Serial.print("Opening << Channel: ");
         Serial.println(x);
 
         I2CMux.openChannel(x); // Open channel
 
-        delay(500);
+        delay(500);// Leave channel opened for 500 miliseconds
 
         Serial.print("Register = Value: ");
         Serial.println(I2CMux.readRegister()); // Note here, register does not translate directly to channel number
@@ -51,14 +53,14 @@ void loop()
     }
 
     Serial.println("--- Opening multiple channels --- ");
-    for (uint8_t x = 0; x < 8; x++)
+    for (uint8_t x = 0; x < 8; x++) //Iterate through all channels
     {
         Serial.print("Opening << Channel: ");
         Serial.println(x);
 
         I2CMux.openChannel(x); // Open channel
 
-        delay(500);
+        delay(500); // Leave channel opened for 500 miliseconds
 
         Serial.print("Register = Value: ");
         Serial.println(I2CMux.readRegister());
