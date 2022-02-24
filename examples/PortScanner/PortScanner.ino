@@ -4,9 +4,11 @@
  * @file        PortScanner.ino
  * @brief       Scans all ports for devices
  *
+ * Learn more about the board here: https://www.solde.red/333042
  *
- *
- * @authors     @ soldered.com
+ * @authors     JDWifWaf@gmail.com @ soldered.com
+ * 
+ *              Modified by soldered.com
  ***************************************************/
 
 #include "TCA9548A-SOLDERED.h"
@@ -16,9 +18,9 @@ TCA9548A I2CMux; // Address can be passed into the constructor
 
 void setup()
 {
-    I2CMux.begin();
-    Wire.begin();
-    Serial.begin(115200);
+    I2CMux.begin(); // Wire instance is passed to the library
+    Wire.begin();   // Start I2C bus
+    Serial.begin(115200); //Start serial communication with PC
 }
 
 void loop()

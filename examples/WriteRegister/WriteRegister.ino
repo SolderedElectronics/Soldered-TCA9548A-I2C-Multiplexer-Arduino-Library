@@ -6,7 +6,9 @@
  *
  * Learn more about the board here: https://www.solde.red/333042
  *
- * @authors     @ soldered.com
+ * @authors     JDWifWaf@gmail.com @ soldered.com
+ * 
+ *              Modified by soldered.com
  ***************************************************/
 
 #include "TCA9548A-SOLDERED.h"
@@ -37,18 +39,18 @@ void loop()
     buff |= TCA_CHANNEL_0;
     buff |= TCA_CHANNEL_3;
     buff |= TCA_CHANNEL_4;
-    buff |= TCA_CHANNEL_7;
+    buff |= TCA_CHANNEL_7;  //Enable channels in buf variable
 
     delay(500);
 
     Serial.print("Writing Register: ");
     Serial.println(buff);
-    I2CMux.writeRegister(buff);
+    I2CMux.writeRegister(buff); //Write buf variable to register
 
     delay(500);
 
     Serial.print("Reading Register: ");
-    Serial.println(I2CMux.readRegister());
+    Serial.println(I2CMux.readRegister());  //Read data from register
 
     delay(500);
 
