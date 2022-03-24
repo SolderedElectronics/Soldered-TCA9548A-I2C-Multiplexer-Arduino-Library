@@ -6,7 +6,7 @@
  *
  *
  * @copyright GNU General Public License v3.0
- * @authors     @ soldered.com
+ * @authors     Zvonimir Haramustek @ soldered.com
  ***************************************************/
 
 #ifndef __TCA9548A_SOLDERED__

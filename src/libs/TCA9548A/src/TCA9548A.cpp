@@ -3,14 +3,29 @@
 
 #define DEBUG 0  // Enable Debug Mode
 
+/**
+ * @brief                   Overloaded constructor with address setting
+ *
+ * @param bool address      I2C address of the device
+ */
 TCA9548A::TCA9548A(uint8_t address) : _address(address) {}
 
+/**
+ * @brief                   Function initializes I2C communication
+ *
+ * @param TwoWire* inWire   I2C handler
+ */
 void TCA9548A::begin(TwoWire &inWire)
 {
     this->myWire = &inWire;
     this->myWire->begin();
 }
 
+/**
+ * @brief                   Function that connects output channel to input
+ *
+ * @param uint8_t channel   Which channel to open
+ */
 void TCA9548A::openChannel(uint8_t channel)
 {
     uint8_t buff = 0x00;    
@@ -24,6 +39,11 @@ void TCA9548A::openChannel(uint8_t channel)
     write(this->_channels);
 }
 
+/**
+ * @brief                   Function that disconnects output channel from input
+ *
+ * @param uint8_t channel   Which channel to close
+ */
 void TCA9548A::closeChannel(uint8_t channel)
 {
     uint8_t buff = 0x00;    
@@ -37,18 +57,34 @@ void TCA9548A::closeChannel(uint8_t channel)
     write(this->_channels);
 }
 
+
+/**
+ * @brief                   Function that disconnects all output channels frominput
+ *
+ * 
+ */
 void TCA9548A::closeAll()
 {
     this->_channels = 0x00;
     write(this->_channels);
 }
 
+/**
+ * @brief                   Function that connects all output channel to input
+ *
+ * 
+ */
 void TCA9548A::openAll()
 {
     this->_channels = 0xFF;
     write(this->_channels);
 }
 
+/**
+ * @brief                   Function that directly modifies channels register in TCA9548A
+ *
+ * @param uint8_t value     Which value to write in channels register
+ */
 void TCA9548A::writeRegister(uint8_t value)
 {
     this->_channels = value;
@@ -60,6 +96,11 @@ void TCA9548A::writeRegister(uint8_t value)
     write(this->_channels);
 }
 
+/**
+ * @brief                   Function that writes data in registers of TCA9548A
+ *
+ * @param uint8_t inData    Data to write
+ */
 void TCA9548A::write(uint8_t inData)
 {
     #if DEBUG
@@ -71,6 +112,11 @@ void TCA9548A::write(uint8_t inData)
     this->myWire->endTransmission(true);
 }
 
+/**
+ * @brief                   Function that reads registers from TCA9548A
+ *
+ * @return                  Returns buffer containing register data
+ */
 uint8_t TCA9548A::read()
 {
     uint8_t buff = 0;
