@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "TCA9548A Arduino Library for Soldered Boards", "index.html", [
-    [ "TCA9548A I2C Multiplexer Arduino library", "index.html", null ],
+    [ "I2C multiplexer TCA9548A breakout Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
