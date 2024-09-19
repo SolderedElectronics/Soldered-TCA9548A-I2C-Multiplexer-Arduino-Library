@@ -6,7 +6,7 @@
 
 | ![I2C multiplexer TCA9548A breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------------------: |
-|                      [I2C multiplexer TCA9548A breakout](https://www.solde.red/333077)                      |
+|                      [I2C multiplexer TCA9548A breakout](https://solde.red/333077)                      |
 
 Have you ever found yourself wanting to connect more than one I2C device to a single controller and couldn't because they have identical I2C addresses? There you have it, I2C multiplexer (I2C MUX) allows you to use up to 8 devices with the same address on the same bus! If we mention that TCA9548A, the IC on which this breakout is based, has three adjustable pins for the I2C address, which means a total of 8 possible addresses. We can reach 64 devices with the same address on the same bus. For example, it is possible to connect 64 BME680 sensors that are read by only one microcontroller.
 
@@ -15,7 +15,7 @@ This adapter is particularly practical because it enables multiplexing of easyC 
 - Based on: TCA9548A
 - Voltage: 1.65V - 5.5V
 - Default I2C address: 0x70, adjustable via 3 on-board jumpera
-- Dimensions: 54 x 38mm (https://www.soldered.com/en/easyC)
+- Dimensions: 54 x 38mm (https://www.soldered.com/easyC)
 
 ### Repository Contents
 
