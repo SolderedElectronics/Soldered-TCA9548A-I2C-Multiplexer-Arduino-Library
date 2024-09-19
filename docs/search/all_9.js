@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['write_0',['write',['../class_t_c_a9548_a.html#a85e82c9277dd685ef877f1433cc0fea5',1,'TCA9548A']]],
-  ['writeregister_1',['writeRegister',['../class_t_c_a9548_a.html#a4d9ca3e46b12975268299aa1ef1c49e1',1,'TCA9548A']]]
+  ['multiplexer_20tca9548a_20breakout_20arduino_20library_0',['I2C multiplexer TCA9548A breakout Arduino library',['../index.html',1,'']]],
+  ['mywire_1',['myWire',['../class_t_c_a9548_a.html#a6abdc1d1d7918d5b4a6d5171646a76a6',1,'TCA9548A']]]
 ];

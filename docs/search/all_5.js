@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['openall_0',['openAll',['../class_t_c_a9548_a.html#a386012b79682d8f4937e1649a1f116ee',1,'TCA9548A']]],
-  ['openchannel_1',['openChannel',['../class_t_c_a9548_a.html#a3e34422c136f4cbf370289319ba158e8',1,'TCA9548A']]]
+  ['features_0',['### Features',['..//github/workspace/gh-pages/src/libs/TCA9548A/README.md#autotoc_md10',1,'']]],
+  ['feedback_1',['### Feedback',['..//github/workspace/gh-pages/src/libs/TCA9548A/README.md#autotoc_md17',1,'']]],
+  ['fun_2',['Have fun!',['../index.html#autotoc_md8',1,'']]]
 ];
