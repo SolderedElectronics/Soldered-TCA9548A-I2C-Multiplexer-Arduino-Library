@@ -4,7 +4,7 @@
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-TCA9548A-I2C-Multiplexer-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-TCA9548A-I2C-Multiplexer-Arduino-Library/actions/workflows/arduino_lint.yml)
 
 
-| ![I2C multiplexer TCA9548A breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![I2C multiplexer TCA9548A breakout](https://soldered.com/cdn/shop/files/333077_featured-photo_ba03d9.jpg) |
 | :---------------------------------------------------------------------------------------------------------: |
 |                      [I2C multiplexer TCA9548A breakout](https://solde.red/333077)                      |
 
