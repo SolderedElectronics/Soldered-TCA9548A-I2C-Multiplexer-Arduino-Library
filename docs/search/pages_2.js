@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['i2c_20multiplexer_20tca9548a_20breakout_20arduino_20library_0',['I2C multiplexer TCA9548A breakout Arduino library',['../index.html',1,'']]]
+  ['commands_0',['### Commands',['../dir_a8a1b89d0d5e30c5bfc247cc74d59419.html#autotoc_md11',1,'']]],
+  ['compatibility_1',['Board compatibility',['../index.html#autotoc_md4',1,'']]],
+  ['contents_2',['Repository Contents',['../index.html#autotoc_md1',1,'']]]
 ];

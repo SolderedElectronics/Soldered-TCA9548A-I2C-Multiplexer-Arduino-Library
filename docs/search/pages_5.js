@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['tca9548a_20breakout_20arduino_20library_0',['I2C multiplexer TCA9548A breakout Arduino library',['../index.html',1,'']]]
+  ['hardware_20design_0',['Hardware design',['../index.html#autotoc_md2',1,'']]],
+  ['have_20fun_1',['Have fun!',['../index.html#autotoc_md8',1,'']]]
 ];
